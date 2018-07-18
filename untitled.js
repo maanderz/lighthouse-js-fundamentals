@@ -1,7 +1,7 @@
-var iceCreamFlavours = ["chocolate", "vanilla", "cookies and cream", "rocky road", "strawberry"];
-console.log(iceCreamFlavours);
+function calculateRectangleArea(length,width) {
+  return (length * width);
+}
 
-iceCreamFlavours.push("root beer");
-console.log(iceCreamFlavours);
+console.log(calculateRectangleArea(2,5));
 
-console.log(iceCreamFlavours[0]);
+
